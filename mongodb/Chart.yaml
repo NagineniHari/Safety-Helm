@@ -1,0 +1,5 @@
+apiVersion: v2 ## This is Helm api version
+name: mongodb   ## Chart name
+version: 1.0.0  ## The version of the chart
+description: mongodb installation
+appVersion: v1  ### This is application version
