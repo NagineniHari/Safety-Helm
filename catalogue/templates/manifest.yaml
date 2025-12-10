@@ -72,5 +72,5 @@ spec:
     tier: backend
   ports:
     - protocol: TCP
-      port: 8080 ## services port
+      port: {{ .Values.service.port}} ## services port
       targetPort: 8080 ## container port
