@@ -17,7 +17,7 @@ spec:
       project: safety
       component: mongodb
       tier: db
-    # pod definitdion
+    # pod definition
   template: 
     metadata:
       labels:
@@ -37,5 +37,5 @@ spec:
         livenessProbe:
           tcpSocket:
             port: 27017
-          initialDelaySeconds: 15
+          initialDelaySeconds: 25
           periodSeconds: 10
